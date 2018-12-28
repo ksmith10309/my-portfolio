@@ -1,0 +1,25 @@
+.hero {
+  background-image: url('../assets/hero-image.jpg');
+  background-size: cover;
+  height: 100vh;
+
+  .heroText {
+    color: rgb(255, 255, 180);
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgb(31, 6, 4);
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    @media screen and (min-width: 1000px) {
+      h1 {
+        font-size: 60px;
+      }
+  
+      h2 {
+        font-size: 40px;
+      }
+    }
+  }
+}
