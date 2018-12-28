@@ -1,0 +1,33 @@
+.about {
+  background-color: rgb(255, 255, 180);
+  border: 1px solid rgb(255, 255, 180);
+  color: rgb(31, 6, 4);
+  padding-bottom: 100px;
+  padding-top: 60px;
+
+  h1 {
+    text-align: center;
+  }
+
+  div {
+    text-align: center;
+  }
+
+  img {
+    display: inline-block;
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 20px;
+    width: 80%;
+  }
+
+  .text {
+    display: inline-block;
+    line-height: 1.5;
+    max-width: 500px;
+    padding: 20px;
+    text-align: left;
+    vertical-align: top;
+    width: 80%;
+  }
+}
